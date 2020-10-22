@@ -24,11 +24,20 @@ header nav ul li {
 
 header nav ul li a {
 	color: firebrick;
+	text-decoration: line-through;
+	transition: background-color 2000ms linear;
+	transition: color 2000ms linear;
 }
 
 header nav ul li a.selected {
 	color: white;
 	background-color: firebrick;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	background-color: firebrick;
+	color: white;
 }
 
 header {
