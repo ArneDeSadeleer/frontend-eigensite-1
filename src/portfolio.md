@@ -1,5 +1,5 @@
 ---
-title: 'Portfolio'
+title: 'ABOUT ME'
 layout: 'layouts/page.html'
 ---
 
