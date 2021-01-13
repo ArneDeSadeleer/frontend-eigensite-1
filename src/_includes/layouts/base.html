@@ -10,9 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
 		<script src="/js/script.js" defer></script>
+    <script src="anime.min.js"></script>
 		<style>{{ custom_css }}</style>
   </head>
   <body>
+    <script src="js/anime.min.js"></script>
 		<header>
 			{% include "partials/header.html" %}
 		</header>
@@ -22,5 +24,8 @@
 		<footer>
 			{% include "partials/footer.html" %}
 		</footer>
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
   </body>
 </html>
