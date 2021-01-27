@@ -1,7 +1,7 @@
 {% extends "layouts/base.html" %}
 
 {% block content %}
- 	<h3>Work: {{ title }}</h3>
+ 	<h4>{{ title }}</h4>
 	<img src="{{ image }}" alt="{{ summary }}"/>
   {{ content | safe }}
 {% endblock %}

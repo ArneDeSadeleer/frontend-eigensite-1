@@ -6,31 +6,9 @@ function vanish() {
   loader.classList.add("disppear");
 }
 
-var tl = anime.timeline({
+anime({
   targets: '.ventje',
-  delay: function(el, i) { return i * 200 },
-  duration: 500, // Can be inherited
-  easing: 'easeOutExpo', // Can be inherited
-  direction: 'alternate', // Is not inherited
-  loop: true // Is not inherited
-});
-
-tl
-.add({
-  translateX: 1900,
-  // override the easing parameter
-  easing: 'spring',
+  rotate: 720,
+  direction: 'alternate',
+  loop: true,
 })
-.add({
-  opacity: 1,
-  scale: 4
-})
-.add({
-  // override the targets parameter
-  targets: '.ventje',
-  rotate: 180
-})
-.add({
-  translateX: 1130,
-  scale: 1
-});

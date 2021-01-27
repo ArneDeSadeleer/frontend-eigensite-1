@@ -1,12 +1,24 @@
 ---
-title: 'Mijn meesterwerk 2'
-summary: 'Kortere beschrijving van mijn meesterwerk 2'
-image: '/img/11ty-logo.png'
+title: 'BRANDING - ATLETIEK BEVEREN'
+summary: 'Branding van atletiek Beveren'
+image: '/img/branding/viltje.jpg'
 displayOrder: 1
 featured: true
 layout: 'layouts/work.html'
+custom_css: 'body {background-color: white;} main {grid-gap: 4rem; display: grid; grid-template-columns: 30% 1fr; grid-template-rows: 1fr;} main h4 {grid-column: 1; grid-row: 1; margin-bottom: 3rem;} img {grid-column: 2;}'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin feugiat viverra feugiat. Nulla mattis urna ac laoreet convallis. Mauris tempor lacinia condimentum. Fusce volutpat sollicitudin nunc, eu porttitor nulla varius non. Nam in sagittis purus, id volutpat turpis. Fusce nibh nulla, finibus sed enim vel, ullamcorper consectetur lectus. Donec sit amet augue augue. Proin eros lectus, pulvinar sit amet ligula ut, malesuada mattis sem. Mauris egestas tellus vitae quam pretium dictum hendrerit nec neque. Nullam id metus ultrices, tincidunt nisi in, congue arcu. Aliquam eu commodo massa. Fusce placerat orci vitae sollicitudin aliquet.
+<img src="/img/branding/volharderken.jpg">
+<img src="/img/branding/nieuwsbrief.jpg">
+<img src="/img/branding/vlaggen.jpg">
+<img src="/img/branding/web.jpg">
 
-Nam nec efficitur nisl. Curabitur vitae tincidunt urna, sit amet placerat ipsum. Sed vitae augue ac ligula scelerisque bibendum non non leo. Nulla in fringilla nunc. Morbi elit ligula, scelerisque non ipsum eu, interdum pulvinar nulla. Nulla vitae imperdiet libero, ut ullamcorper odio. Quisque interdum dictum neque, vitae blandit dui blandit vel. Donec eu velit et ligula sodales consequat ut eget tellus. Cras elementum sed enim non semper. Fusce sodales sollicitudin odio, vitae hendrerit sem posuere nec. Nam a maximus diam, ac ultrices sem.
+<div class="info">
+<h4>BRANDING - ATLETIEK BEVEREN</h4>
+<p class="speciaal">Branding of the track & field club in Beveren, Belgium.</p>
+
+<h6>CREATIVE DISCIPLINES</h6>
+<p class="speciaal">graphic design, branding, logo design</p>
+<h6>TOOLS</h6>
+<p class="speciaal">Photoshop, Illustrator & Adobe XD</p>
+</div>
