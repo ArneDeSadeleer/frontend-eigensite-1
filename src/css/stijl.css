@@ -281,12 +281,16 @@ a.socials:hover {text-decoration: underline;}
 	.mc {
 		column-count: 1;
 	}
+	main .blok1 p {font-size: 80%; line-height: 2rem;}
 }
+
+.blok1 p {padding-left: 20rem; padding-right: 20rem;}
 
 @media (max-width: 1200px) {
 	main .blok1 h3 {font-size: 8rem;}
 	main .blok2 h3 {font-size: 8rem; text-align: center;}
 	main .blok2 {display: grid; grid-template-columns: 1fr;}
+	.blok1 p {padding-left: 10rem; padding-right: 10rem;}
 }
 
 @media (min-width: 800px) {

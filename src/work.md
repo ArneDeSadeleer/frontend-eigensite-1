@@ -9,7 +9,7 @@ custom_css: 'main {margin-bottom: 5rem;} main h2 {color: black;} body {backgroun
 {% for item in collections.featuredWork %}
   <a class="image" href="{{ item.url }}">
     <img src="{{ item.data.image }}" alt="{{ item.data.summary }}"/>
-    <p>{{ item.h4 }}</p>
+    <p>{{ item.title }}</p>
   </a>
 {% endfor %}
 </div>
